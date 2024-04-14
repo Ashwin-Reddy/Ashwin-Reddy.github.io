@@ -389,8 +389,25 @@ body {
         font-size: 55%;
     }
 
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-content h3 {
+        font-size: 2rem;
+    }
+
+    .home-img img {
+        width: 37vw;
+        margin-top: 4rem;
+    }
+
+    .home-content p {
+        font-size: 1.4rem;
+    }
+
     .about-content .btn {
-        margin-left: 20rem;
+        margin-left: 11rem;
     }
 }
 
