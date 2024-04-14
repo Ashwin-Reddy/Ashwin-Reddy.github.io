@@ -294,7 +294,7 @@ body {
 
 .contact form .input-box,
 .contact form .input-field {
-    display: block;
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -302,7 +302,7 @@ body {
 .contact form .input-box .input-field input,
 .contact form .input-box-email input,
 .contact form textarea {
-    width: 70rem;
+    width: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
     color: var(--text-color);
@@ -388,6 +388,10 @@ body {
     html {
         font-size: 55%;
     }
+
+    .about-content .btn {
+        margin-left: 20rem;
+    }
 }
 
 @media (max-width: 991px) {
@@ -401,6 +405,10 @@ body {
 
     .services {
         padding: 7rem;
+    }
+
+    .about-content .btn {
+        margin-left: 17rem;
     }
 
     .projects {
@@ -473,6 +481,10 @@ body {
         margin-top: 4rem;
     }
 
+    .about-content .btn {
+        margin-left: 31rem;
+    }
+
     .services h2 {
         margin-bottom: 3rem;
     }
@@ -500,6 +512,10 @@ body {
         width: 100vw;
         margin-top: 4rem;
     }
+
+    .about-content .btn {
+        margin-left: 20rem;
+    }
 }
 
 @media (max-width: 450px) {
@@ -509,5 +525,9 @@ body {
 
     .contact form .input-box input {
         width: 100%;
+    }
+
+    .about-content .btn {
+        margin-left: 17rem;
     }
 }
