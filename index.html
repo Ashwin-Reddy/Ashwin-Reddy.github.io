@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Ashwin Deepak">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashwin Deepak</title>
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Main JS -->
+    <script src="script.js" defer></script>
+
+    <!-- Typing JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Scroll Reveal JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- SMTP JS -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- Sweet Alert JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    
+</head>
+
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo"><span>A</span>shwin.</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Ashwin Deepak</h1>
+            <h3>I am a <span class="multiple-text"></span></h3>
+            <p>Passionate creator, skilled in web design, development, and digital experiences, with a commitment to excellence and innovation.</p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-behance'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#" class="btn">Contact Me</a>
+        </div>
+
+        <div class="home-img">
+            <img src="assets/HomeImg.png" alt="Ashwin Deepak" class="homeImg">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/About_Img.jpg" alt="Ashwin Deepak">
+        </div>
+        <div class="about-content">
+            <h2 class="abt-heading">About <span>Me</span></h2>
+            <p>My name is Ashwin Deepak, and I am a seasoned Full Stack Developer dedicated to crafting user-centric digital solutions. Equipped with extensive expertise in Web Design & Development, I possess proficiency in a range of programming languages including Python, C++, HTML5, CSS3, JavaScript, and SQL. I am characterized by my adeptness at quickly grasping new concepts and collaborating seamlessly within team environments, bolstered by exceptional communication abilities</p>
+            <a href="#projects" class="btn">My Projects</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="services-heading">What I <span>Offer</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>With a passion for innovation and a commitment to excellence, I offer a comprehensive suite of web development solutions tailored to meet your unique needs.</p>
+                <a href="#contact" class="btn">Know More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-palette'></i>
+                <h3>UI/UX Designing</h3>
+                <p>As a dedicated UI/UX designer, I excel in creating intuitive interfaces that enhance user experience through compelling visual design and seamless functionality.</p>
+                <a href="#contact" class="btn">Know More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-paint'></i>
+                <h3>Graphic Designing</h3>
+                <p>As a passionate graphic designer, I offer a comprehensive range of services to elevate your brand and communicate your message effectively.</p>
+                <a href="#contact" class="btn">Know More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section design -->
+    <section class="projects" id="projects">
+        <h2 class="projects-heading">My <span>Projects</span></h2>
+        <div class="projects-container">
+
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="contact-heading">Contact <span>Me!</span></h2>
+        
+        <form action="#" class="form-contact">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" id="first-name" placeholder="First Name" class="item" autocomplete="off">
+                    <div class="error-txt">First Name can't be blank</div>
+                </div>
+                <div class="input-field">
+                    <input type="text" id="last-name" placeholder="Last Name" class="item" autocomplete="off">
+                    <div class="error-txt">Last Name can't be blank</div>
+                </div>
+            </div>
+
+            <div class="input-box-email">
+                <input type="email" id="email" placeholder="Email Address" class="item" autocomplete="off">
+                <div class="error-txt">Email can't be blank</div>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" class="item" autocomplete="off"></textarea>
+                <div class="error-txt">Message can't be blank</div>
+            </div>
+
+            <input id="submit" type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer section design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Ashwin Deepak | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
